@@ -394,7 +394,7 @@ class harmony_state():
         self.change_kpdve(a_kpdve)
 
 if __name__ == "__main__":
-    h = harmony_state();
+    h = harmony_state()
     h.string_description()
     print('=============')
     print('=RANDOMIZED==')
