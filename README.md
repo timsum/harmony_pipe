@@ -1,5 +1,5 @@
-# harmonypartition
- *harmonypartition* is a system for the analysis and generation of musical harmony
+# harmony_pipe
+ *harmony_pipe* is a system for the analysis and generation of musical harmony
  Developed by [Timothy Summers](http://www.timsummers.org)
 
 In this system, musical modes function as latent spaces into which single notes can be given clearly definable roles and weights. 
@@ -8,7 +8,7 @@ This 'dynamic tokenization' is made possible by treating musical harmony as a mo
 
 ---
 
-*harmonypartition* relies almost entirely on logic operations and runs with an efficiency equal 
+*harmony_pipe* relies almost entirely on logic operations and runs with an efficiency equal 
 to the task of parsing live audio. This Python/Numpy implementation also allows for integration with many powerful libraries, especially Librosa, Music21, and TensorFlow/Keras.
 
 The underlying system allows entwines  ideas of melody and harmony:
@@ -18,7 +18,7 @@ The underlying system allows entwines  ideas of melody and harmony:
 
 
 
-*harmonypartition* sets up a network of bits in which a combination of binary filters and a
+*harmony_pipe* sets up a network of bits in which a combination of binary filters and a
 trivial backpropagation provide a wealth of actionable musical information.
 
 The system is modeled on the practise modal improvisation, and is intended to promote the practise of tonal improvisation both on digital and analog devices. 
@@ -30,7 +30,7 @@ The correspondence to many conventions of Western harmonic practise is strong, b
 
 ## INPUT
 
-## Partita handles two fundamental types of input.
+## harmony_pipe handles two fundamental types of input.
 1) **integer:** groups of notes as a binary pitch-class set (0b100010010001)
 2) **integer array:** a harmonic context (KPDVE): np.array([0, 0, 0, 4, 3])
    
