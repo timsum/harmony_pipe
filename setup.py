@@ -12,14 +12,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-      name='harmonypartition',
+      name='harmony_pipe',
       version='0.0.1',
       author="Timothy Summers",
       author_email="timsummers.dev@gmail.com",
       description='Analyze harmonic content of binary data',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      url="https://github.com/timsum/harmonypartition",
+      url="https://github.com/timsum/harmony_pipe",
       package_dir={'':'src'},
       #packages=setuptools.find_packages(),
       classifiers = ["Development Status :: 3 - Alpha",
