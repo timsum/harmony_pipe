@@ -21,7 +21,7 @@ setup(
       long_description_content_type="text/markdown",
       url="https://github.com/timsum/harmony_pipe",
       package_dir={'':'src'},
-      #packages=setuptools.find_packages(),
+      packages=setuptools.find_packages(),
       classifiers = ["Development Status :: 3 - Alpha",
                      "Framework :: Matplotlib",
                      "Intended Audience :: Education",
