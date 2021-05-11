@@ -6,6 +6,7 @@ src/__pycache__/
 */.ipynb_checkpoints/*
 *.wav
 *.pyc
+venv
 
 # ### VisualStudioCode ###
 .vscode/*
