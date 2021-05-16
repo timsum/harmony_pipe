@@ -16,9 +16,15 @@ class pt_score():
     def __init__(self, home_key=np.array([0,0,1,4,3])):
         self.tempo_bpm = 60
         self.home_key = home_key
+        
         self.chord_motion_filter = np.array([[0,0,0,0,0], [0,0,1,0,1], [0,0,3,0,0], [0,0,6,0,0]], dtype=np.int16)
+        self.chord_motion_pulse = 4
+
         self.melody_contour = None
+        self.melody_motion_pulse = 16
+
         self.rhythm_contour = None
+        self.rhythm_motion_pulse = 16
 
 
     def chord_at_index(self, index):
